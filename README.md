@@ -8,6 +8,8 @@
 ## Technologies
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
+![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite)&nbsp;
+![Insomnia](https://img.shields.io/badge/-Insomnia-05122A?style=flat&logo=insomnia)&nbsp;
 
 ## Install
 
