@@ -21,6 +21,10 @@ npm install
 npm run dev
 ```
 
+```sh
+npm run migrate
+```
+
 ## Author
 
 **João Marcos**
