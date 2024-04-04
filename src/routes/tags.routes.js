@@ -5,6 +5,8 @@ const TagsController = require("../controllers/TagsController");
 
 const tagsController = new TagsController();
 
-tagsRouter.get("/:user_id", tagsController.index);
+const ensureAuthenticated = require("../middlewares/ensureAuthenticated");
+
+tagsRouter.get("/", ensureAuthenticated, tagsController.index);
 
 module.exports = tagsRouter;
